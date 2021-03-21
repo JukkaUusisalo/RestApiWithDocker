@@ -5,7 +5,7 @@ Swagger UI with https://github.com/iheartradio/play-swagger
 
 ```bash
 sbt docker:publishLocal
-docker run --env APPLICATION_SECRET=<Your application secret> -p 9000:9000 restapiwithdocker:1.0-SNAPSHOT
+docker run --env APPLICATION_SECRET=<Your application secret> --env APPLICATION_HOST=<Your host> -p 9000:9000 restapiwithdocker:1.0-SNAPSHOT
 ```
 
 ## Azure Stuff
